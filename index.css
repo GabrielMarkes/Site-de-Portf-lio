@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto'
+}
+section
+{ 
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:'grey' ;
+}
+
+h1{
+    color: aliceblue;
+    left: 500px;
+    top: 500px;
+}
+h2{
+    color: aliceblue;
+}
+h3{
+    color:aliceblue;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position:relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a 
+{
+    display: inline-block;
+    color: aliceblue;
+    font-weight:400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+footer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+/* banner*/
+#main-banner
+{
+    height: 70vh;
+    background-size: cover ;
+    padding-top: 15vh;
+
+}
+#main-banner
+{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+
+}
+#main-banner img
+{
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: absolute; 
+    left: 850px;
+    top: 450px; 
+    
+}
+#main-section{
+    background-color: black;
+    text-align: center;
+}
+div h1{ 
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    left: 750px;
+
+}
